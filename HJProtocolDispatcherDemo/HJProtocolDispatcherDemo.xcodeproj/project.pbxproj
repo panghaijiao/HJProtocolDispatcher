@@ -13,11 +13,13 @@
 		A0BE73821D5798E400159AD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BE73801D5798E400159AD0 /* Main.storyboard */; };
 		A0BE73841D5798E400159AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BE73831D5798E400159AD0 /* Assets.xcassets */; };
 		A0BE73871D5798E400159AD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BE73851D5798E400159AD0 /* LaunchScreen.storyboard */; };
-		A0BE73951D57993600159AD0 /* ProtocolDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BE73941D57993600159AD0 /* ProtocolDispatcher.m */; };
 		A0BE73981D5799A000159AD0 /* DelegateSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BE73971D5799A000159AD0 /* DelegateSource.m */; };
+		A62A8BE9B6CD528BCE0966BC /* libPods-HJProtocolDispatcherDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEF6187C8957E0B338AAE53 /* libPods-HJProtocolDispatcherDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C8A5354A6BC8A237521B044 /* Pods-HJProtocolDispatcherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJProtocolDispatcherDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJProtocolDispatcherDemo/Pods-HJProtocolDispatcherDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8CEF6187C8957E0B338AAE53 /* libPods-HJProtocolDispatcherDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HJProtocolDispatcherDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BE73741D5798E400159AD0 /* HJProtocolDispatcherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJProtocolDispatcherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BE73781D5798E400159AD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0BE737A1D5798E400159AD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,10 +30,9 @@
 		A0BE73831D5798E400159AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BE73861D5798E400159AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0BE73881D5798E400159AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0BE73931D57993600159AD0 /* ProtocolDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolDispatcher.h; sourceTree = "<group>"; };
-		A0BE73941D57993600159AD0 /* ProtocolDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolDispatcher.m; sourceTree = "<group>"; };
 		A0BE73961D5799A000159AD0 /* DelegateSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateSource.h; sourceTree = "<group>"; };
 		A0BE73971D5799A000159AD0 /* DelegateSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateSource.m; sourceTree = "<group>"; };
+		BF4F4832F07757E51ED4253E /* Pods-HJProtocolDispatcherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJProtocolDispatcherDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJProtocolDispatcherDemo/Pods-HJProtocolDispatcherDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62A8BE9B6CD528BCE0966BC /* libPods-HJProtocolDispatcherDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09B3B452F1E76EBDF8CE9450 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C8A5354A6BC8A237521B044 /* Pods-HJProtocolDispatcherDemo.debug.xcconfig */,
+				BF4F4832F07757E51ED4253E /* Pods-HJProtocolDispatcherDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		37E7851FEA327C5A6E92686D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CEF6187C8957E0B338AAE53 /* libPods-HJProtocolDispatcherDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A0BE736B1D5798E400159AD0 = {
 			isa = PBXGroup;
 			children = (
 				A0BE73761D5798E400159AD0 /* HJProtocolDispatcherDemo */,
 				A0BE73751D5798E400159AD0 /* Products */,
+				09B3B452F1E76EBDF8CE9450 /* Pods */,
+				37E7851FEA327C5A6E92686D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,7 +85,6 @@
 		A0BE73761D5798E400159AD0 /* HJProtocolDispatcherDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A0BE73921D57993600159AD0 /* ProtocolDispatcher */,
 				A0BE737A1D5798E400159AD0 /* AppDelegate.h */,
 				A0BE737B1D5798E400159AD0 /* AppDelegate.m */,
 				A0BE737D1D5798E400159AD0 /* ViewController.h */,
@@ -88,16 +108,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A0BE73921D57993600159AD0 /* ProtocolDispatcher */ = {
-			isa = PBXGroup;
-			children = (
-				A0BE73931D57993600159AD0 /* ProtocolDispatcher.h */,
-				A0BE73941D57993600159AD0 /* ProtocolDispatcher.m */,
-			);
-			name = ProtocolDispatcher;
-			path = ../../ProtocolDispatcher;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -105,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0BE738B1D5798E400159AD0 /* Build configuration list for PBXNativeTarget "HJProtocolDispatcherDemo" */;
 			buildPhases = (
+				DADCEA69A50339EB76965E96 /* Check Pods Manifest.lock */,
 				A0BE73701D5798E400159AD0 /* Sources */,
 				A0BE73711D5798E400159AD0 /* Frameworks */,
 				A0BE73721D5798E400159AD0 /* Resources */,
+				2744FE304043E2E7F5BBF115 /* Embed Pods Frameworks */,
+				B155AFCD5572B5B49A600E3D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,12 +176,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2744FE304043E2E7F5BBF115 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJProtocolDispatcherDemo/Pods-HJProtocolDispatcherDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B155AFCD5572B5B49A600E3D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJProtocolDispatcherDemo/Pods-HJProtocolDispatcherDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DADCEA69A50339EB76965E96 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0BE73701D5798E400159AD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0BE73951D57993600159AD0 /* ProtocolDispatcher.m in Sources */,
 				A0BE73981D5799A000159AD0 /* DelegateSource.m in Sources */,
 				A0BE737F1D5798E400159AD0 /* ViewController.m in Sources */,
 				A0BE737C1D5798E400159AD0 /* AppDelegate.m in Sources */,
@@ -282,6 +342,7 @@
 		};
 		A0BE738C1D5798E400159AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8A5354A6BC8A237521B044 /* Pods-HJProtocolDispatcherDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HJProtocolDispatcherDemo/Info.plist;
@@ -293,6 +354,7 @@
 		};
 		A0BE738D1D5798E400159AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4F4832F07757E51ED4253E /* Pods-HJProtocolDispatcherDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HJProtocolDispatcherDemo/Info.plist;
@@ -321,6 +383,7 @@
 				A0BE738D1D5798E400159AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,19 @@
+PODS:
+  - HJProtocolDispatcher (0.0.1)
+
+DEPENDENCIES:
+  - HJProtocolDispatcher (from `https://github.com/panghaijiao/HJProtocolDispatcher.git`)
+
+EXTERNAL SOURCES:
+  HJProtocolDispatcher:
+    :git: https://github.com/panghaijiao/HJProtocolDispatcher.git
+
+CHECKOUT OPTIONS:
+  HJProtocolDispatcher:
+    :commit: 8dee94432b2d959c9d065c8361539d743263dbf6
+    :git: https://github.com/panghaijiao/HJProtocolDispatcher.git
+
+SPEC CHECKSUMS:
+  HJProtocolDispatcher: b91384b05f186eb8a700f902efe43618914a203c
+
+COCOAPODS: 0.39.0

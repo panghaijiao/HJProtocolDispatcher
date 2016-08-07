@@ -1,0 +1,18 @@
+{
+  "name": "HJProtocolDispatcher",
+  "version": "0.0.1",
+  "summary": "A tool to dispatch protocol to multiple implemertors.",
+  "description": "",
+  "homepage": "https://github.com/panghaijiao/HJProtocolDispatcher",
+  "license": "MIT",
+  "authors": {
+    "panghaijiao": "275742376@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/panghaijiao/HJProtocolDispatcher.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "ProtocolDispatcher/**/*.{h,m}",
+  "frameworks": "UIKit",
+  "requires_arc": true
+}

@@ -5,7 +5,7 @@
 
 target 'HJProtocolDispatcherDemo' do
 
-#pod 'HJProtocolDispatcher', :path => '../ProtocolDispatchera'
+pod 'HJProtocolDispatcher', :git => "https://github.com/panghaijiao/HJProtocolDispatcher.git"
 
 end
 
