@@ -27,7 +27,5 @@ pod 'HJProtocolDispatcher', :git => "https://github.com/panghaijiao/HJProtocolDi
 ##License
 
 HJProtocolDispatcher is released under the MIT license. See LICENSE for details.
-
-##CopyRight
-[Author](https://github.com/alessandroorru/AOMultiproxier)
+Copyright owner [Alessandroorru]((https://github.com/alessandroorru/AOMultiproxier))
 
