@@ -20,7 +20,7 @@ self.tableView.delegate = AOProtocolDispatcher(UITableViewDelegate, self, self.d
 ## Podfile
 
 ```
-pod 'HJProtocolDispatcher', :git => "https://github.com/panghaijiao/HJProtocolDispatcher.git"
+pod 'HJProtocolDispatcher',    :git => 'https://github.com/panghaijiao/HJProtocolDispatcher.git'
 ```
 
 
