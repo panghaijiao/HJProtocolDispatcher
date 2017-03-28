@@ -7,7 +7,7 @@
 
 A tool to dispatch protocol to multiple implemertors
 
-##How To Use
+## How To Use
 
 ```
 self.tableView.delegate = AOProtocolDispatcher(UITableViewDelegate, self, self.delegateSource);
@@ -24,7 +24,7 @@ pod 'HJProtocolDispatcher',    :git => 'https://github.com/panghaijiao/HJProtoco
 ```
 
 
-##License
+## License
 
 HJProtocolDispatcher is released under the MIT license. See LICENSE for details.
 Copyright owner [Alessandroorru](https://github.com/alessandroorru/AOMultiproxier)
